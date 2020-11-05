@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Forms & Inputs</title>
+  </head>
+  <body>
+    <!--The 'action' attribute in the form element tells the browser where to link to once clicked -->
+    <form class="" action="index.html" method="post">
+      <label>Button:</label>
+      <input type="button" name=""><br>
+
+      <label>Checkbox</label>
+      <input type="checkbox" name="" value=""><br>
+
+      <label>Color Palette:</label>
+      <input type="color" name="" value=""><br>
+
+      <label>Calendar Widget</label>
+      <input type="date" name="" value=""><br>
+
+      <label>Range</label>
+      <input type="range" name="" value=""><br>
+
+<!--With the submit input type you don't include a value attribute, unless you wanted to name it something other than 'submit'-->
+      <label>Submit Button</label>
+      <input type="submit" name="" value="ewrewr"><br>
+    </form>
+    <hr>
+    <!--Creating a basic emailto forms-->
+    <form action="mailto:info@londonappbrewery.com" method="post" enctype="text/plain">
+      <label>Your Name: </label>
+      <input type="text" name="YourName" value=""><br>
+
+      <label>Your Email: </label>
+      <input type="email" name="YourEmail" value=""><br>
+
+      <label>Your Message: </label>
+      <textarea name="name" rows="3" cols="30"></textarea><br>
+      <input type="submit" name="">
+
+    </form>
+  </body>
+</html>
